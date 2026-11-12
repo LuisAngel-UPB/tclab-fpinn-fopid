@@ -1,0 +1,74 @@
+{
+ "fecha": "2026-11-12T15:02:55",
+ "mode": "full",
+ "source": "kit",
+ "nb02": "data/NB02_kit_20261109_ABC/NB02_out/kit",
+ "design": [
+  "ABC_const_s0",
+  "PhysInt_OE"
+ ],
+ "b3": "IntegerPINN",
+ "verif": [
+  "IntegerPINN ABC_const_s0",
+  "fPINN AB-C_const_s0",
+  "fPINN BC-A_const_s0"
+ ],
+ "sc": {
+  "ops": [
+   35.0,
+   50.0,
+   65.0
+  ],
+  "dr": 5.0,
+  "dq2": 40.0,
+  "t_r": 900,
+  "t_d": 900,
+  "noise": 0.03,
+  "noise_seed": 123
+ },
+ "ctrl": {
+  "Tf": 10.0
+ },
+ "rob": {
+  "Ms_max": 1.6,
+  "PM_min": 45.0,
+  "kappa": 200.0,
+  "n_w": 400,
+  "w_min": 0.0001
+ },
+ "cost": {
+  "w_r": 1.0,
+  "w_d": 1.0,
+  "w_u": 0.2,
+  "rho": 100.0
+ },
+ "opt": {
+  "n_adam": 300,
+  "lr": 0.05,
+  "n_lbfgs": 40,
+  "n_starts": 3,
+  "n_starts_other": 1,
+  "start_sd": 0.3,
+  "seed": 0
+ },
+ "pso": {
+  "n_part": 40,
+  "n_iter": 100,
+  "w": 0.7,
+  "c1": 1.5,
+  "c2": 1.5,
+  "seed": 0
+ },
+ "b1": {
+  "PM": 60.0,
+  "flat": true,
+  "T_hf_dB": -20.0,
+  "S_lf_dB": -20.0
+ },
+ "decision": "P NO supera claramente a B4 -> evaluar 2x2 MIMO en simulaci\u00f3n antes de decidir (regla del proyecto)",
+ "so": "Linux-6.18.44-fc-v378-x86_64-with-glibc2.39",
+ "python": "3.13.18",
+ "torch": "2.15.0+cu132",
+ "procesador": "x86_64",
+ "hilos_torch": 4
+}

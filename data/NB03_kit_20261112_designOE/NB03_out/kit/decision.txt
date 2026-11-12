@@ -1,0 +1,1 @@
+P NO supera claramente a B4 -> evaluar 2x2 MIMO en simulación antes de decidir (regla del proyecto)

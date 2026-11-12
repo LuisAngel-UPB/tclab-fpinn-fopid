@@ -1,0 +1,70 @@
+{
+ "fecha": "2026-11-09T12:48:28",
+ "mode": "full",
+ "fuente_datos": "NB01_out",
+ "splits": {
+  "ABC": [
+   [
+    "A",
+    "B",
+    "C"
+   ],
+   []
+  ]
+ },
+ "amb_models": [
+  "const"
+ ],
+ "seeds": [
+  0,
+  1,
+  2
+ ],
+ "D_train_min": null,
+ "pinn": {
+  "n_adam": 4000,
+  "n_lbfgs": 1500,
+  "lr": 0.002,
+  "w_r": 1.0,
+  "w_0": 10.0,
+  "order_max": 1.2,
+  "width": 64,
+  "depth": 4,
+  "n_ff": 8,
+  "use_z": true
+ },
+ "amb": {
+  "knot_s": 600.0,
+  "w_mag": 0.1,
+  "w_smooth": 1.0
+ },
+ "oe_nfev": 200,
+ "th0": {
+  "U": 1.73857737040888,
+  "Us": 21.18640188224552,
+  "alpha1": 0.0101713801347803,
+  "alpha2": 0.0050689487064408,
+  "tau_s": 41.618890394230746,
+  "alpha": 0.95,
+  "beta": 0.95
+ },
+ "phys": {
+  "m": 0.004,
+  "cp": 500.0,
+  "A": 0.0012,
+  "As": 0.0002,
+  "eps": 0.9,
+  "sigma": 5.67e-08,
+  "tc": 1.0
+ },
+ "so": "Windows-10-10.0.19045-SP0",
+ "python": "3.9.13",
+ "torch": "2.8.0+cpu",
+ "procesador": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+ "hilos_torch": 8,
+ "kit": {
+  "fecha": "2026-11-06T14:33:45",
+  "firmware": "TCLab Firmware 2.0.1 Arduino Leonardo/Micro",
+  "T_AMB": 27.969090909090905
+ }
+}
