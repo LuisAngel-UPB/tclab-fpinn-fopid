@@ -1,0 +1,16 @@
+n,id,rep,archivo
+1,B3,1,corrida_01_B3_rep1.csv
+2,B1,1,corrida_02_B1_rep1.csv
+3,B4,1,corrida_03_B4_rep1.csv
+4,P,1,corrida_04_P_rep1.csv
+5,B2,1,corrida_05_B2_rep1.csv
+6,P,2,corrida_06_P_rep2.csv
+7,B1,2,corrida_07_B1_rep2.csv
+8,B2,2,corrida_08_B2_rep2.csv
+9,B4,2,corrida_09_B4_rep2.csv
+10,B3,2,corrida_10_B3_rep2.csv
+11,B1,3,corrida_11_B1_rep3.csv
+12,B2,3,corrida_12_B2_rep3.csv
+13,B3,3,corrida_13_B3_rep3.csv
+14,B4,3,corrida_14_B4_rep3.csv
+15,P,3,corrida_15_P_rep3.csv
