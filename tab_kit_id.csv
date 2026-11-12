@@ -1,0 +1,19 @@
+split,amb,model,n,alpha,beta,RMSE_val_T1,RMSE_val_mean,RMSE_train,time_s
+AB-C,const,fPINN,3,1.044 \pm 0.000,1.067 \pm 0.001,0.958 \pm 0.001,0.874 \pm 0.003,1.010 \pm 0.001,426
+AB-C,const,Integer PINN,3,1.000 \pm 0.000,1.000 \pm 0.000,1.060 \pm 0.001,0.901 \pm 0.000,1.027 \pm 0.000,432
+AB-C,const,Phys-frac (OE-LS),1,0.988,1.013,0.959,0.784,0.913,6
+AB-C,const,Phys-int (OE-LS),1,1.000,1.000,0.976,0.793,0.914,3
+AB-C,const,FFOPDT,1,n/a,n/a,0.912,n/a,n/a,1
+AB-C,const,SOPDT,1,n/a,n/a,0.884,n/a,n/a,1
+AB-C,const,FOPDT,1,n/a,n/a,0.915,n/a,n/a,0
+AB-C,drift,fPINN,3,1.045 \pm 0.000,1.066 \pm 0.001,0.928 \pm 0.002,0.897 \pm 0.005,0.859 \pm 0.001,431
+AB-C,drift,Integer PINN,3,1.000 \pm 0.000,1.000 \pm 0.000,0.990 \pm 0.001,0.860 \pm 0.001,0.819 \pm 0.000,412
+BC-A,const,fPINN,3,1.071 \pm 0.003,0.995 \pm 0.013,0.999 \pm 0.017,1.119 \pm 0.014,1.037 \pm 0.001,427
+BC-A,const,Integer PINN,3,1.000 \pm 0.000,1.000 \pm 0.000,0.554 \pm 0.002,0.765 \pm 0.001,1.051 \pm 0.001,420
+BC-A,const,Phys-frac (OE-LS),1,0.834,1.083,0.549,0.758,0.921,24
+BC-A,const,Phys-int (OE-LS),1,1.000,1.000,0.591,0.751,0.932,4
+BC-A,const,FFOPDT,1,n/a,n/a,0.646,n/a,n/a,2
+BC-A,const,SOPDT,1,n/a,n/a,0.649,n/a,n/a,0
+BC-A,const,FOPDT,1,n/a,n/a,0.560,n/a,n/a,0
+BC-A,drift,fPINN,3,1.065 \pm 0.001,1.033 \pm 0.005,1.211 \pm 0.014,1.327 \pm 0.011,0.868 \pm 0.001,456
+BC-A,drift,Integer PINN,3,1.000 \pm 0.000,1.000 \pm 0.000,0.750 \pm 0.001,0.961 \pm 0.001,0.820 \pm 0.000,438
