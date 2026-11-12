@@ -1,0 +1,9 @@
+# Tested with Python 3.9.13 on Windows 10 (AMD Ryzen 7 PRO 5850U, 16 GB RAM, CPU only)
+numpy
+scipy
+pandas
+matplotlib
+torch==2.8.0      # CPU build is enough; NB02 and NB03 only
+tclab==1.0.0      # NB01 and NB04 with the real kit (HW='kit'); also provides the emulator
+jupyter
+statsmodels       # analysis/NB04_kit/scripts/m4_stats.py only

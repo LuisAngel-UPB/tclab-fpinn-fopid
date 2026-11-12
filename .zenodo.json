@@ -1,0 +1,24 @@
+{
+  "title": "Data and code for: Gradient-based tuning of FOPID controllers through physics-informed fractional surrogates: experimental validation on a thermal process",
+  "upload_type": "software",
+  "description": "<p>Jupyter notebooks (NB01–NB04), experimental data recorded on a Temperature Control Lab (TCLab, Arduino Leonardo, firmware 2.0.1) and analysis scripts supporting the article <em>Gradient-based tuning of FOPID controllers through physics-informed fractional surrogates: experimental validation on a thermal process</em> (submitted to Control Engineering Practice).</p><p>Contents: open-loop identification experiments (NB01), fractional physics-informed neural network (fPINN) identification (NB02), differentiable FOPID tuning with robustness constraints and baselines (NB03), and 15 closed-loop runs on the kit (5 controllers × 3 repetitions × 3 operating points, NB04). Code under the MIT licence; data under CC BY 4.0.</p>",
+  "creators": [
+    {
+      "name": "Angel, Luis",
+      "affiliation": "Universidad Pontificia Bolivariana, Bucaramanga, Colombia",
+      "orcid": "0000-0002-9156-9547"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": [
+    "fractional-order PID",
+    "FOPID",
+    "physics-informed neural networks",
+    "fractional PINN",
+    "differentiable tuning",
+    "TCLab",
+    "temperature control"
+  ]
+}

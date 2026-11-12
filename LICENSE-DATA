@@ -1,0 +1,16 @@
+Data licence
+============
+
+All files under data/ and analysis/ that are not source code (CSV, JSON, TeX
+table rows, PDF and PNG figures) are (c) 2026 Luis Angel and are licensed under
+the Creative Commons Attribution 4.0 International licence (CC BY 4.0).
+
+You are free to share and adapt the data for any purpose, provided that you give
+appropriate credit (cite the article and the Zenodo record, see CITATION.cff),
+provide a link to the licence, and indicate if changes were made.
+
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+Summary:         https://creativecommons.org/licenses/by/4.0/
+
+Source code (notebooks/*.ipynb and analysis/**/scripts/*.py) is licensed under
+the MIT licence, see LICENSE.

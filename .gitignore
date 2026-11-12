@@ -1,0 +1,8 @@
+# Outputs written when the notebooks are re-run (the archived results live in data/)
+notebooks/NB0*_out/
+notebooks/*.zip
+*.part.csv
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+Thumbs.db

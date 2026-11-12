@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article and this archive."
+title: "Data and code for: Gradient-based tuning of FOPID controllers through physics-informed fractional surrogates: experimental validation on a thermal process"
+type: software
+authors:
+  - given-names: Luis
+    family-names: Angel
+    affiliation: "Universidad Pontificia Bolivariana, Bucaramanga, Colombia"
+    orcid: "https://orcid.org/0000-0002-9156-9547"
+version: 1.0.0
+date-released: "2026-11-30"
+license: MIT
+repository-code: "https://github.com/LuisAngel-UPB/tclab-fpinn-fopid"
+# doi: 10.5281/zenodo.XXXXXXX   # add the Zenodo concept DOI after the first release
+keywords:
+  - fractional-order PID
+  - FOPID
+  - physics-informed neural networks
+  - fractional PINN
+  - differentiable tuning
+  - TCLab
+  - temperature control
+preferred-citation:
+  type: article
+  title: "Gradient-based tuning of FOPID controllers through physics-informed fractional surrogates: experimental validation on a thermal process"
+  authors:
+    - given-names: Luis
+      family-names: Angel
+      orcid: "https://orcid.org/0000-0002-9156-9547"
+  journal: "Control Engineering Practice"
+  year: 2026
+  status: submitted
