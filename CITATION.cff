@@ -8,10 +8,10 @@ authors:
     affiliation: "Universidad Pontificia Bolivariana, Bucaramanga, Colombia"
     orcid: "https://orcid.org/0000-0002-9156-9547"
 version: 1.0.0
-date-released: "2026-11-30"
+date-released: "2026-11-12"
 license: MIT
 repository-code: "https://github.com/LuisAngel-UPB/tclab-fpinn-fopid"
-# doi: 10.5281/zenodo.XXXXXXX   # add the Zenodo concept DOI after the first release
+doi: 10.5281/zenodo.24168802
 keywords:
   - fractional-order PID
   - FOPID

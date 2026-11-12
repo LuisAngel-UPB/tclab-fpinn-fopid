@@ -1,6 +1,6 @@
 # Gradient-based tuning of FOPID controllers through physics-informed fractional surrogates — data and code
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/1455559155.svg)](https://doi.org/10.5281/zenodo.24168802)
 [![Code: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
 [![Data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey.svg)](LICENSE-DATA)
 
@@ -134,7 +134,7 @@ tuning time for P, B1–B4, A1, A2); `controladores_NB04.json` is the file read 
 ## Citation
 
 Please cite the article and this archive (see `CITATION.cff`; GitHub shows a "Cite this repository" button).
-Zenodo DOI (all versions): [10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX).
+Zenodo DOI (all versions): [10.5281/zenodo.24168802](https://doi.org/10.5281/zenodo.24168802).
 
 ## Licence
 
